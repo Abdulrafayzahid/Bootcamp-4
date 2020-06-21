@@ -1,12 +1,30 @@
 import React from 'react';
 import './App.css';
-import Room from './room'
+import Header from './component/Header';
+import Balance from './component/Balance';
+import TransactionHistory from './component/TransactionHistory';
+import AddTransaction from './component/AddTranaction';
+import AccountSummary from './component/AccountSummary';
+//Global provider
+import {GlobalProvider} from './context/GlobalState'
+
 
 function App() {
   return (
-    <div className="App">
-      <Room />
-    </div>
+  <>
+    <GlobalProvider className="App">
+      <Header />
+      <Balance />
+      <AccountSummary />
+      <TransactionHistory />
+      <AddTransaction />
+    </GlobalProvider>
+    <footer>
+      <p>
+        Crafted with ❤️  by Rafay
+      </p>
+    </footer>
+  </>
   );
 }
 
