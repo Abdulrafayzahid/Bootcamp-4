@@ -159,6 +159,11 @@ footer {
   font-size: 14px;
 }
 
+footer img{
+  position: relative;
+  bottom: -3px
+}
+
 @media (max-width: 992px){
   div#root {
     width: 50%;
