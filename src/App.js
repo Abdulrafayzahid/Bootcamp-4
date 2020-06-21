@@ -21,7 +21,7 @@ function App() {
     </GlobalProvider>
     <footer>
       <p>
-        Crafted with <span><img src="assets/heart.png" alt="heart" /></span>  by Rafay
+        Crafted with <span><img src="assets/heart.png" alt="heart" /></span>  by <a href="https://github.com/Abdulrafayzahid">Rafay</a>
       </p>
     </footer>
   </>
