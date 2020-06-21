@@ -19,11 +19,11 @@ function App() {
       <TransactionHistory />
       <AddTransaction />
     </GlobalProvider>
-    <footer>
+    {/* <footer>
       <p>
         Crafted with <span>❤️</span>  by Rafay
       </p>
-    </footer>
+    </footer> */}
   </>
   );
 }
