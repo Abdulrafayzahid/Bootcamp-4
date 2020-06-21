@@ -21,7 +21,7 @@ function App() {
     </GlobalProvider>
     <footer>
       <p>
-        Crafted with ❤️  by Rafay
+        Crafted with <span>❤️</span>  by Rafay
       </p>
     </footer>
   </>
